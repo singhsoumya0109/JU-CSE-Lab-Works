@@ -8,11 +8,11 @@ The repository is organized by subjects and courses. Each folder contains the re
 
 
 ## 📚 Contents
-
+- **Computer Graphics**: Lab work involving graphical algorithms, rendering techniques, and visual computing concepts like DDA, Bresenham's algorithms, and transformations.
+- **Computer Networks**: Lab work related to networking concepts, protocols, and data communication.
 - **Data Structures and Algorithms**: Implementations of various data structures such as stacks, queues, linked lists, trees, and graphs and algorithms including sorting, searching, and optimization techniques.
 - **Numerical Methods**: Lab assignments on numerical methods for solving mathematical problems such as interpolation, integration, and differential equations.
-- **Object-Oriented Programming (OOP)**: Assignments and projects in C++/Java/Python illustrating OOP principles.
-- **Computer Networks**: Lab work related to networking concepts, protocols, and data communication.
+- **Object-Oriented Programming (OOP)**: Assignments and projects in C++/Java illustrating OOP principles.
 
 ## 🌟 Highlights
 
