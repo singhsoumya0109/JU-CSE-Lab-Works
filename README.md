@@ -13,6 +13,7 @@ The repository is organized by subjects and courses. Each folder contains the re
 - **Data Structures and Algorithms**: Implementations of various data structures such as stacks, queues, linked lists, trees, and graphs and algorithms including sorting, searching, and optimization techniques.
 - **Numerical Methods**: Lab assignments on numerical methods for solving mathematical problems such as interpolation, integration, and differential equations.
 - **Object-Oriented Programming (OOP)**: Assignments and projects in C++/Java illustrating OOP principles.
+- **Operating systems**: Assignments and projects in shell
 
 ## 🌟 Highlights
 
