@@ -6,22 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/engineerhead/dns-server.git"
-  },
+  "type": "module",
   "keywords": [
     "dns",
     "node"
   ],
   "author": "Sugata Laha",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/engineerhead/dns-server/issues"
-  },
-  "homepage": "https://github.com/engineerhead/dns-server#readme",
   "dependencies": {
     "dns-packet": "^5.6.1",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.8.2",
+    "node-cache": "^5.1.2",
     "nodemon": "^3.1.7"
   }
 }
