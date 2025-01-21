@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  background-color: #090909; /* Dark background */
+  color: #ffffff; /* Light text color */
+  padding: 0.7rem 0;
+  margin-top: auto;
+  z-index: 2;
+  text-align: center;
+}
+
+.footer .social-icons a {
+  color: #ffffff; /* White color for icons */
+  margin: 0 10px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.footer .social-icons a:hover {
+  color: #0073b1; /* LinkedIn color on hover */
+}
+
+.footer .social-icons a.github-icon:hover {
+  color: #333333; /* GitHub icon color on hover */
+}
+
+.footer .social-icons a.portfolio-icon:hover {
+  color: #3498db; /* Blue for portfolio link on hover */
+}
