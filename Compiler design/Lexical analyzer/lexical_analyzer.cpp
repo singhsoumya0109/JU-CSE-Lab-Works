@@ -130,6 +130,7 @@ vector<Token> extractTokens(string &line,int row)
                     string op=x+line[i+1];
                     string id2="operator";
                     tokens.push_back(Token(op,id2,row,i-op.length()));
+                    i++;
                     continue;
                 }
             }
