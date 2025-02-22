@@ -53,13 +53,15 @@ const authAdmin = asyncHandler(async (req, res) => {
 });
 
 const authStudent = asyncHandler(async (req, res) => {
-  const { email } = req.body;
+  const { email, roll } = req.body;
 
-  // Check if student exists
-  const student = await Student.findOne({ email });
+  // Check if student exists with the given email and roll number
+  const student = await Student.findOne({ email, roll });
 
   if (!student) {
-    return res.status(404).json({ message: "Student not found." });
+    return res
+      .status(404)
+      .json({ message: "Student not found or incorrect roll number." });
   }
 
   // Respond with student details and token
@@ -72,5 +74,6 @@ const authStudent = asyncHandler(async (req, res) => {
     token: generateToken(student._id),
   });
 });
+
 
 module.exports = { registerUser, authAdmin, authStudent };
