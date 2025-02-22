@@ -44,7 +44,7 @@ const StudentLogin = () => {
       // Redirect to student dashboard after 2 seconds
       setTimeout(() => {
         window.location.href = "/student/dashboard";
-      }, 2000);
+      }, 1000);
     } catch (error) {
       const errorMessage =
         error.response && error.response.data.message

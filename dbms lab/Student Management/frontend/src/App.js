@@ -1,12 +1,15 @@
 import "./App.css";
 import { Route } from "react-router-dom";
 import Homepage from "./pages/Homepage.js";
-
+import Admindashboard from "./pages/Admindashboard.js";
+import Studentdashboard from "./pages/Studentdashboard.js";
 function App() {
   return (
     <div className="App">
       <div className="content">
         <Route path="/" component={Homepage} exact />
+        <Route path="/admin/dashboard" component={Admindashboard} exact />
+        <Route path="/student/dashboard" component={Studentdashboard} exact />
       </div>
 
       {/* Footer */}
