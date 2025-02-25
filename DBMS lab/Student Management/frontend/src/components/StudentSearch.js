@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { FaEnvelope, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 import "./StudentSearch.css";
 
 const StudentSearch = () => {
@@ -37,6 +38,7 @@ const StudentSearch = () => {
       };
 
       const { data } = await axios.get(`/api/student/${roll}`, config);
+      console.log(data);
       setStudent(data);
     } catch (err) {
       setError(err.response?.data?.message || "Student not found.");
@@ -67,13 +69,19 @@ const StudentSearch = () => {
             <strong>Name:</strong> {student.name}
           </p>
           <p>
-            <strong>Email:</strong> {student.email}
+            <FaEnvelope /> <strong>Email:</strong> {student.email}
           </p>
           <p>
             <strong>Roll:</strong> {student.roll}
           </p>
           <p>
             <strong>Department Code:</strong> {student.deptCode}
+          </p>
+          <p>
+            <FaMapMarkerAlt /> <strong>Address:</strong> {student.address}
+          </p>
+          <p>
+            <FaPhone /> <strong>Phone:</strong> {student.phone}
           </p>
         </div>
       )}

@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import StudentDetails from "../components/StudentDetails";
 import StudentSearch from "../components/StudentSearch";
 import StudentList from "../components/StudentList";
+import "./StudentDashboard.css"; // Import CSS file
 
 export default class Studentdashboard extends Component {
   componentDidMount() {
@@ -24,12 +25,20 @@ export default class Studentdashboard extends Component {
     const studentName = studentInfo ? studentInfo.name : "Student";
 
     return (
-      <div>
+      <div className="student-dashboard">
         <Navbar name1={studentName} onLogout={this.handleLogout} />
         <h1>Welcome, {studentName}!</h1>
-        <StudentDetails student={studentInfo} />
-        <StudentSearch />
-        <StudentList />
+
+        {/* StudentDetails and StudentSearch in one row */}
+        <div className="top-section">
+          <StudentDetails student={studentInfo} />
+          <StudentSearch />
+        </div>
+
+        {/* Student List in full width below */}
+        <div className="bottom-section">
+          <StudentList />
+        </div>
       </div>
     );
   }

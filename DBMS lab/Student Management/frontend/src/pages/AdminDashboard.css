@@ -1,0 +1,42 @@
+.dashboard-content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Sections Layout */
+.top-section,
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* Ensure equal width for components */
+.top-section > *,
+.middle-section > * {
+  flex: 1;
+}
+
+/* Bottom section (Student List) */
+.bottom-section {
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .top-section,
+  .middle-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-section > *,
+  .middle-section > * {
+    width: 100%;
+  }
+}

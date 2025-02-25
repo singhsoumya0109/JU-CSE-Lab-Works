@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import Navbar from "../components/Navbar";
+import AdminDetails from "../components/AdminDetails";
 import AddStudent from "../components/AddStudent";
 import AddDepartment from "../components/AddDepartment";
 import StudentSearch from "../components/StudentSearch";
 import UpdateStudent from "../components/UpdateStudent";
 import DeleteStudent from "../components/DeleteStudent";
 import StudentList from "../components/StudentList";
+import "./AdminDashboard.css"; // Import the CSS file
 
 export default class AdminDashboard extends Component {
   componentDidMount() {
@@ -31,16 +33,23 @@ export default class AdminDashboard extends Component {
           onLogout={this.handleLogout}
         />
         <div className="dashboard-content">
-          <h1>Welcome, Admin!</h1>
-          <p>Manage student records, courses, and system settings here.</p>
+          <h1>Welcome, {adminInfo?.username || "Admin"}</h1>
 
-          {/* Components for different functionalities */}
-          <AddStudent />
-          <AddDepartment />
-          <StudentSearch />
-          <UpdateStudent />
-          <DeleteStudent />
-          <StudentList />
+          <div className="top-section">
+            <AdminDetails />
+            <AddStudent />
+            <AddDepartment />
+          </div>
+
+          <div className="middle-section">
+            <StudentSearch />
+            <UpdateStudent />
+            <DeleteStudent />
+          </div>
+
+          <div className="bottom-section">
+            <StudentList />
+          </div>
         </div>
       </div>
     );
