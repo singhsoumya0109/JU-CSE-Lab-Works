@@ -1,0 +1,45 @@
+.student-search {
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.student-search input {
+  padding: 8px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.student-search button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.student-search button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.student-search button:hover {
+  background-color: #0056b3;
+}
+
+.search-results {
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}

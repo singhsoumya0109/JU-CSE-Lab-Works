@@ -1,0 +1,25 @@
+.admin-details {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.admin-details h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.admin-details p {
+  font-size: 16px;
+  color: #555;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}

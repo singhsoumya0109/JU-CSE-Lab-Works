@@ -1,0 +1,38 @@
+.student-dashboard {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Flex container for StudentDetails and StudentSearch */
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* Ensure equal width for both components */
+.top-section > * {
+  flex: 1;
+}
+
+/* Bottom section (Student List) */
+.bottom-section {
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .top-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-section > * {
+    width: 100%;
+  }
+}
