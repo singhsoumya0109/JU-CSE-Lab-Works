@@ -1,0 +1,5 @@
+<map id="Parser::leftFactorGrammar" name="Parser::leftFactorGrammar">
+<area shape="rect" id="Node000001" title="Applies left factoring to the grammar to ensure LL1 compatibility." alt="" coords="159,5,335,32"/>
+<area shape="rect" id="Node000002" href="$classParser.html#ac13410cc626574db39d1b39cdf8dfe39" title="Constructs a Parser by loading a grammar from a file." alt="" coords="5,5,111,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,21,111,21,111,16,143,16"/>
+</map>

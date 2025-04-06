@@ -1,0 +1,11 @@
+<map id="Lexer::isOperator" name="Lexer::isOperator">
+<area shape="rect" id="Node000001" title="Checks if a string is an SQL operator." alt="" coords="630,13,751,40"/>
+<area shape="rect" id="Node000002" href="$classLexer.html#aeef65cdc820f48477913e8411df2fcf4" title="Classifies a string into a specific Token type." alt="" coords="440,13,582,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="614,29,582,29,582,24,614,24"/>
+<area shape="rect" id="Node000003" href="$classLexer.html#abf0e5edeefd5155b71591488ada01e16" title="Tokenizes an input string into a vector of Token objects." alt="" coords="282,13,392,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="425,29,393,29,393,24,425,24"/>
+<area shape="rect" id="Node000004" href="$classSQLInterpreter.html#afe6f5863dedf9018fdebd95fad6bed77" title="Initializes and runs the SQL interpreter." alt="" coords="103,5,234,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="266,29,235,29,235,24,266,24"/>
+<area shape="rect" id="Node000005" href="$Interpreter__main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="Main entry point for the SQL interpreter program." alt="" coords="5,13,55,40"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,29,55,29,55,24,87,24"/>
+</map>
