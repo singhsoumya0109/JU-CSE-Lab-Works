@@ -1,5 +1,0 @@
-<map id="Parser::leftFactorGrammar" name="Parser::leftFactorGrammar">
-<area shape="rect" id="Node000001" title="Applies left factoring to the grammar to ensure LL1 compatibility." alt="" coords="5,5,182,32"/>
-<area shape="rect" id="Node000002" href="$classSymbol.html#a626bdd3948ea431fa1281416e0d012d5" title="Gets the string representation of the symbol." alt="" coords="230,5,365,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,16,214,16,214,21,182,21"/>
-</map>

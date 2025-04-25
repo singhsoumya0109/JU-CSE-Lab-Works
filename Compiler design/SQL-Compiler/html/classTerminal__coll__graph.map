@@ -1,5 +1,0 @@
-<map id="Terminal" name="Terminal">
-<area shape="rect" id="Node000001" title="Derived class representing a terminal symbol in the grammar." alt="" coords="13,208,107,299"/>
-<area shape="rect" id="Node000002" href="$classSymbol.html" title="Base class representing a symbol in the grammar (terminal or non&#45;terminal)." alt="" coords="5,5,115,160"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,175,63,208,57,208,57,175"/>
-</map>

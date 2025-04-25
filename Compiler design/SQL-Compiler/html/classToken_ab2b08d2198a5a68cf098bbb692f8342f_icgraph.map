@@ -1,9 +1,0 @@
-<map id="Token::getLexeme" name="Token::getLexeme">
-<area shape="rect" id="Node000001" title="Gets the lexeme of the token." alt="" coords="429,13,558,40"/>
-<area shape="rect" id="Node000002" href="$classParser.html#a65780aca08811f29dda782f145bd7d4d" title="Parses a sequence of tokens using the LL1 parsing table." alt="" coords="282,13,381,40"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="414,29,382,29,382,24,414,24"/>
-<area shape="rect" id="Node000003" href="$classSQLInterpreter.html#afe6f5863dedf9018fdebd95fad6bed77" title="Initializes and runs the SQL interpreter." alt="" coords="103,5,234,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="266,29,234,29,234,24,266,24"/>
-<area shape="rect" id="Node000004" href="$Interpreter__main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="Main entry point for the SQL interpreter program." alt="" coords="5,13,55,40"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,29,55,29,55,24,87,24"/>
-</map>

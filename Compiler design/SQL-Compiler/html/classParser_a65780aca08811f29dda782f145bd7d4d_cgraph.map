@@ -1,9 +1,0 @@
-<map id="Parser::parse" name="Parser::parse">
-<area shape="rect" id="Node000001" title="Parses a sequence of tokens using the LL1 parsing table." alt="" coords="5,56,105,83"/>
-<area shape="rect" id="Node000002" href="$classToken.html#ab2b08d2198a5a68cf098bbb692f8342f" title="Gets the lexeme of the token." alt="" coords="156,5,284,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,53,159,35,161,40,102,58"/>
-<area shape="rect" id="Node000003" href="$classSymbol.html#a626bdd3948ea431fa1281416e0d012d5" title="Gets the string representation of the symbol." alt="" coords="153,56,288,83"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="105,67,137,67,137,72,105,72"/>
-<area shape="rect" id="Node000004" href="$classToken.html#aeda1c29c63c88e423312128306393ebb" title="Gets the type of the token." alt="" coords="165,107,276,133"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="102,81,161,99,159,104,100,86"/>
-</map>

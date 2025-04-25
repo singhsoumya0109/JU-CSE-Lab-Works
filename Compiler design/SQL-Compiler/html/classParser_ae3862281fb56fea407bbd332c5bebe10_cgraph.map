@@ -1,5 +1,0 @@
-<map id="Parser::computeLL1Table" name="Parser::computeLL1Table">
-<area shape="rect" id="Node000001" title="Computes the LL1 parsing table based on the grammar and FIRST/FOLLOW sets." alt="" coords="5,5,175,32"/>
-<area shape="rect" id="Node000002" href="$classSymbol.html#a626bdd3948ea431fa1281416e0d012d5" title="Gets the string representation of the symbol." alt="" coords="223,5,358,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,16,207,16,207,21,175,21"/>
-</map>
